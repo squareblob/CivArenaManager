@@ -1,0 +1,13 @@
+name: CivArenaManager
+main: com.squareblob.cam.CivArenaManager
+version: ${project.version}
+depend:
+  - WorldEdit
+  - Citadel
+  - Bastion
+authors:
+- Squareblob
+api-version: 1.18
+permissions:
+  cam.admin:
+    default: op
